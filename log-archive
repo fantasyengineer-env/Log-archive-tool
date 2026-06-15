@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ -d /var/backup ]; then
+	cd /var/backup
+	
+	tar czf logs_archive_$(hostname)_$(date +%Y-%m-%d_%H-%M-%S).tar.gz $1  
+else
+	mkdir /var/backup
+	
+	tar czf logs_archive_$(hostname)_$(date +%Y-%m-%d_%H-%M-%S).tar.gz $1  
+fi
