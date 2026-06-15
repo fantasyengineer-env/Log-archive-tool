@@ -1,12 +1,14 @@
 # Log-archive-tool
 
-Day 2 -- RoadMap.sh -- Journey to Devops 
-Purpose: Learn bash scripting, git, various linux tools while applying them to real world applications seen in a engineering environment
+# Day 2 -- RoadMap.sh -- Journey to Devops 
 
-Future Plans for program:
+- Purpose: Learn bash scripting, git, various linux tools while applying them to real world applications seen in a engineering environment
+
+## Future Plans for program:
+  
   - Use Docker and Nextcloud to create a container based cloud storage server that will hold all archives
       
-      - What is my reasoning?
+      - ##  What is my reasoning?
         
           - Nextcloud is opensource, providing freedom from vendor lock-in, security, and the ability to audit code
           
@@ -18,6 +20,6 @@ Future Plans for program:
           -  Docker grants me the ability to containerize the cloud server infastructure, allowing me to ship it to other team members without worrying that they won't have the proper packages, dependencies, and apis configured on their device to utilize the program.
        
 
- Where is the tool right now?
+ ## Where is the tool right now?
  
  bash script that acts as a log archive tool. Compress files to be stored for later usage while keeping system clean.
