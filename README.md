@@ -2,6 +2,8 @@
 
 # Day 2 -- RoadMap.sh -- Journey to Devops 
 
+- https://roadmap.sh/projects/log-archive-tool
+
 - Purpose: Learn bash scripting, git, various linux tools while applying them to real world applications seen in a engineering environment
 
 ## Future Plans for program:
